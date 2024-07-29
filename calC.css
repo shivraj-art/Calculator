@@ -1,0 +1,40 @@
+.container{
+    background-color: rgb(9, 145, 179);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.calculator{
+    background-color:black;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: brown;
+}
+.display{
+    width:98%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 45px;
+}
+button{
+    width:140px ;
+    height: 100px;
+    opacity: 0.9;
+    margin: 5px;
+    font-size: 35px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(43, 54, 52);
+}
+.operator{
+   color: blue;
+}
